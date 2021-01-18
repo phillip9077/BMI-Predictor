@@ -1,1 +1,2 @@
 # BMI-Predictor
+This program allows a user to provide his/her own face and obtain a rough estimate of his/her BMI. I used Tensorflow and Keras to build a simple convolutional neural network (CNN). The mean squared error of my current model is relatively high, so I will look towards implementing a residual network to optimize my network and increase its accuracy.
