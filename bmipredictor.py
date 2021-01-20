@@ -6,9 +6,10 @@ from keras.preprocessing.image import ImageDataGenerator, load_img, img_to_array
 from keras.models import Sequential
 
 # reading data from the .csv file
+# usecols is a parameter that allows us to specify which columns of data we want
 dataframe = pd.read_csv('C:/VIA Tech/BMI Classifier/vip/annotation.csv',
                         usecols=['image', 'BMI']).values
-X = []  # the features, or inputs
+X = []  # the features, or inputs, 
 y = []  # the labels, or outputs
 
 # separating the inputs and the outputs, aka our images and their corresponding BMI values
